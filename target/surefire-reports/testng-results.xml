@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-07T17:24:09 IST" name="Suite" finished-at="2025-05-07T17:24:30 IST" duration-ms="20173">
+    <groups>
+      <group name="error-handling">
+        <method signature="Errorvalidation.incorrectPaswrd()[pri:0, instance:rahulshettyacademy.tests.Errorvalidation@19932c16]" name="incorrectPaswrd" class="rahulshettyacademy.tests.Errorvalidation"/>
+      </group> <!-- error-handling -->
+      <group name="data-provider">
+        <method signature="Standalone.submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.Standalone@3aa078fd]" name="submitOrder" class="rahulshettyacademy.tests.Standalone"/>
+      </group> <!-- data-provider -->
+    </groups>
+    <test started-at="2025-05-07T17:24:09 IST" name="ErrorValidation Test" finished-at="2025-05-07T17:24:30 IST" duration-ms="20173">
+      <class name="rahulshettyacademy.tests.Errorvalidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.Errorvalidation@19932c16]" started-at="2025-05-07T17:24:09 IST" name="launchApplication" finished-at="2025-05-07T17:24:15 IST" duration-ms="5652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="incorrectPaswrd()[pri:0, instance:rahulshettyacademy.tests.Errorvalidation@19932c16]" started-at="2025-05-07T17:24:15 IST" name="incorrectPaswrd" finished-at="2025-05-07T17:24:19 IST" duration-ms="3730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectPaswrd -->
+        <test-method is-config="true" signature="orderSucess()[pri:0, instance:rahulshettyacademy.tests.Errorvalidation@19932c16]" started-at="2025-05-07T17:24:19 IST" name="orderSucess" finished-at="2025-05-07T17:24:20 IST" duration-ms="1641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderSucess -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.Errorvalidation@19932c16]" started-at="2025-05-07T17:24:20 IST" name="launchApplication" finished-at="2025-05-07T17:24:23 IST" duration-ms="2792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrderError()[pri:0, instance:rahulshettyacademy.tests.Errorvalidation@19932c16]" started-at="2025-05-07T17:24:23 IST" name="submitOrderError" finished-at="2025-05-07T17:24:29 IST" duration-ms="5418" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button _ngcontent-sye-c34="" class="btn w-10 rounded" style="float: right;">...</button> is not clickable at point (978, 443). Other element would receive the click: <div _ngcontent-sye-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [835343097e606b94bf7a654c5921a050, clickElement {id=f.39840372BB362B1732E0A79C57AC6109.d.95FEF9612577872B4CF0E4BEB39FCEA5.e.81}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2319}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2319/devtool..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (835343097e606b94bf7a654c5921a050)] -> css selector: .mb-3]] -> css selector: .card-body button:last-of-type]
+Session ID: 835343097e606b94bf7a654c5921a050]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-sye-c34="" class="btn w-10 rounded" style="float: right;">...</button> is not clickable at point (978, 443). Other element would receive the click: <div _ngcontent-sye-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=135.0.7049.115)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [835343097e606b94bf7a654c5921a050, clickElement {id=f.39840372BB362B1732E0A79C57AC6109.d.95FEF9612577872B4CF0E4BEB39FCEA5.e.81}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2319}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2319/devtool..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[[[ChromeDriver: chrome on windows (835343097e606b94bf7a654c5921a050)] -> css selector: .mb-3]] -> css selector: .card-body button:last-of-type]
+Session ID: 835343097e606b94bf7a654c5921a050
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at rahulshettyacademy.pageobjects.productCatalog.getProducttoCart(productCatalog.java:51)
+at rahulshettyacademy.tests.Errorvalidation.submitOrderError(Errorvalidation.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderError -->
+        <test-method is-config="true" signature="orderSucess()[pri:0, instance:rahulshettyacademy.tests.Errorvalidation@19932c16]" started-at="2025-05-07T17:24:29 IST" name="orderSucess" finished-at="2025-05-07T17:24:29 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderSucess -->
+      </class> <!-- rahulshettyacademy.tests.Errorvalidation -->
+    </test> <!-- ErrorValidation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
