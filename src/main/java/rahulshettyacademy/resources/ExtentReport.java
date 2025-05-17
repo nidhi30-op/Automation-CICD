@@ -1,5 +1,5 @@
 package rahulshettyacademy.resources;
-package org.testng.annotations
+
 
 import org.testng.annotations.BeforeTest;
 
@@ -11,7 +11,7 @@ public class ExtentReport {
 
 	
 
-	@BeforeTest
+	
 	public static ExtentReports makeReport() {
 		String path = System.getProperty("user.dir") + "\\report\\reportfile.html";
 		ExtentSparkReporter report = new ExtentSparkReporter(path);
