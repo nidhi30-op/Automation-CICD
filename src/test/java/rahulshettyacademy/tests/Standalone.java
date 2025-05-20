@@ -41,6 +41,7 @@ public class Standalone extends Basetest {
 	public void submitOrder(HashMap<String, String> input) throws IOException, InterruptedException {
 
 		// Move landing page login to new pageobject class
+//this is testing for ci/cd testing
 
 		productCatalog pro = obj.loginApplication(input.get("email"), input.get("password"));
 
